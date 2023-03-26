@@ -1,0 +1,5 @@
+.maxWidthWrapper {
+  max-width: 1024px;
+  padding-inline: 32px;
+  margin-inline: auto;
+}

@@ -1,0 +1,43 @@
+.characterEditor {
+  padding-top: 128px;
+  padding-bottom: 64px;
+  background: linear-gradient(
+    to bottom,
+    hsl(180, 25%, 92%) 49.9%,
+    hsl(195deg, 20%, 86%) 50%
+  );
+}
+
+.maxWidthWrapper {
+}
+
+.header {
+  padding-bottom: 64px;
+  max-width: 65%;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 16px;
+  letter-spacing: -0.5px;
+}
+
+.description {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.characterWrapper {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 35%;
+  height: max(500px, 90%);
+}
+
+.controlColumn {
+  max-width: 50%;
+}

@@ -1,0 +1,5 @@
+.character {
+  /* Fill the available container height */
+  display: block;
+  height: 100%;
+}
