@@ -31,11 +31,10 @@
 
 .characterWrapper {
   position: fixed;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 0;
+  top: 15%;
+  left: 60%;
   width: 35%;
-  height: max(500px, 90%);
+  min-height: 500px;
 }
 
 .controlColumn {
